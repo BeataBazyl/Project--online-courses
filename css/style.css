@@ -37,7 +37,7 @@ a {
 
 .cta-button--big {
     font-size: 1.75rem;
-    padding: 1.25rem;
+    padding: 1rem;
     min-width: 250px;
 }
 
@@ -236,14 +236,6 @@ a {
 /* END OF CONTACT */
 
 
-/* START FOOTER */
-
-.footer {
-    background-color:#181e19;
-}
-
-/* END OF FOOTER */
-
 /* START FORM */
 .contact-form {
     color: #fff;
@@ -292,3 +284,32 @@ a {
 }
 
 /* END OF FORM */
+
+/* START FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color:#181e19;
+    padding: 2rem;
+}
+
+.footer__header {
+    margin: 0;
+}
+
+/* END OF FOOTER */
+
+/* copyright */
+
+.copyright {
+    color: #fff;
+    background-color: #0a110d;
+    padding: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* END OF copyright */
